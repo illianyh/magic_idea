@@ -1,0 +1,125 @@
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute !important;
+	width:550px;
+	height: auto;
+	left:45%;
+	top:10% !important;
+	background: #FFF;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+}
+
+
+.user_register input[type="text"] {
+    border: 1px solid;
+    height: 40px !important;
+}
+.user_register form{
+    margin: 0;
+}
+
+#modal_trigger {margin:100px auto; width:100px; display:block;}
+
+.btn {padding:10px 20px; background: #F4F4F2;}
+.btn_red {background: #ED6347; color: #FFF;}
+
+.btn:hover {background: #E4E4E2;}
+.btn_red:hover {background: #C12B05;}
+
+a.btn {color:#666; text-align: center; text-decoration: none;}
+a.btn_red {color: #FFF;}
+
+.one_half {width:50%; display: block; float:left;}
+.one_half.last {width:45%; margin-left:5%;}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: capitalize;color: #fff;}
+.popupHeader {background:#F0634C; position:relative; padding:15px 20px; border-bottom:1px solid #DDD; font-weight:bold;border-radius: 5px 0 0;}
+.popupHeader .modal_close {
+  border-radius: 100%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+.popupBody {
+    padding:20px;
+    float: left;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.callbackbgimg{
+    background-image: url('../images/call-back-bg-imh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.centeredText {text-align: center; margin: 20px 0; clear: both; overflow: hidden; text-transform: uppercase;}
+
+/* Inquire Form */
+.user_register label {display: block; margin-bottom:5px;}
+.user_register input[type="text"],.user_register textarea, .user_register input[type="email"], .user_register input[type="password"] {
+    display: block; 
+    width:100%; 
+    padding: 5px; 
+    border:1px solid #DDD; 
+    color:#666;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.user_register input[type="checkbox"] {float:left; margin-right:5px;}
+.user_register input[type="checkbox"]+label {float:left;}
+
+.user_register .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+.user_register select{
+    width: 100%;
+    border: 1px solid #E4E4E2;
+    border-radius: 4px;
+    background-color: #fff;
+    height: auto;
+    padding: 5px;
+}
+.action_btns{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.user_register input[type="submit"]{
+    width: 100%;
+    background-color: #F0634C;
+    width: 40%;
+    float: right;
+    border-radius: 5px;
+}
+.user_register textarea{
+    height: 50px;
+}
+.user_register br{
+    display: none;
+}
+.user_register .formfield{
+    float: left;
+    width: 100%;
+}
+.user_register .formfield .half{
+    float: left;
+    width: 48%;
+}
